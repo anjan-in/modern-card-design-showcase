@@ -29,3 +29,13 @@ A comprehensive collection of industry-standard card design components for moder
 ## License
 
 MIT License - See LICENSE file for details
+
+EOF
+
+git add README.md
+git commit -m "Update README with project information"
+git push origin main
+
+# 11. Create and push a development branch for future enhancements
+git checkout -b development
+git push origin development
